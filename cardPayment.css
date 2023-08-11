@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto:wght@300;400&family=Zilla+Slab:wght@300&display=swap');
+
+body{
+    height: 100vh;
+    display: grid;
+    place-self: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e4d91;
+}
+.container{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    width: fit-content;
+    /* height: 300px; */
+    place-self: center;
+    background-color: white;
+}
+
+.cardDetail{
+    height: 175px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    /* row-gap: 5px; */
+    place-self: center;
+    margin: 5px;
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.orderSummary{
+    height: 175px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    /* row-gap: 5px; */
+    column-gap: 85px;
+    place-self: center;
+    background-color: #f5f5f7;
+    margin: 5px;
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.orderSummary .heading{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #1e4d90;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin: 15px 0px;
+}
+
+#cardExpireDate, #cvc{
+    width: 45px;
+}
+
+input{
+    border: none;
+}
+
+img{
+    width: 25px;
+}
+
+.inputsLine{
+    border: 2px solid #8080808f; 
+    border-radius: 4px; 
+    display: flex;
+}
+
+.rowValue{
+    font-weight: bold;
+}

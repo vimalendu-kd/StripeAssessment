@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto:wght@300;400&family=Zilla+Slab:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    /* background-color: red; */
+    height: 600px;
+    width: 800px;
+    display: grid;
+    grid-template-rows: 1fr 2fr repeat(5, 1fr);
+    grid-template-columns: 2fr repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.item{
+    /* background-color: aqua; */
+    /* height: 100px; */
+    justify-self: center;
+    align-self: baseline;
+    font-size: 13px;
+}
+
+.heading{
+    grid-column-start: 1;
+    grid-column-end: 6;    
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#next{
+    grid-column-start: 1;
+    grid-column-end: 6;  
+    padding: 10px 100px;
+    margin: 10px;
+    background-color: #1e4d90;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.columnHeading{
+    /* height: 80px;
+    width: 80px; */
+    justify-self: center;
+    align-self: center;
+    background-color: #7994bd;
+    padding: 25px;
+    color: white !important;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #1e4d90;
+}
+
+.planChoice{
+    background-color: #1e4d90;
+    border-radius: 50px;
+    justify-self: left;
+}
+
+#monthPlan{
+    background-color: white;
+    color:#1e4d90;
+}
+
+.spanSelectPlan{
+    padding: 6px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.leftAlign{
+    justify-self: left;
+}
+
+.device{
+    margin:5px;
+}
+
+.class1{
+    font-weight: bold;
+    color: #1e4d90;
+}
+
+a{
+    text-decoration: none;
+    color: white !important;
+}

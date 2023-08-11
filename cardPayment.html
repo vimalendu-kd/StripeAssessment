@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cardPayment.css">
+    <title>cardPayment</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cardDetail">
+            <div class="heading">Complete Payment</div>
+            <div>Enter your credit or debit card details below</div>
+            <div class="inputsLine">
+                <img src="cardImage.jpg" alt="cardImage">
+                <input type="text" name="cardNumber" id="cardNumber" placeholder="Card number">
+                <input type="text" name="cardExpireDate" id="cardExpireDate" placeholder="MM/YY">
+                <input type="password" name="cvc" id="cvc" placeholder="CVC">
+            </div>
+            <div>
+                <button type="submit" class="btn">Confirm Payment</button>
+            </div>
+        </div>
+        <div class="orderSummary">
+            <div class="heading">Order Summary</div>
+            <div class="rowHeading">Plan Name</div>
+            <div class="rowValue">Basic</div>
+            <div class="rowHeading">Billing Cycle</div>
+            <div class="rowValue">Monthly</div>
+            <div class="rowHeading">Plan Price</div>
+            <div class="rowValue">₹200/mo</div>
+        </div>
+    </div>
+</body>
+</html>

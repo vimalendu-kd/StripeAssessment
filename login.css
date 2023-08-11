@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto:wght@300;400&family=Zilla+Slab:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #1e4d91;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    /* border: 3px solid black; */
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.inputs{
+    margin: 20px 5px;
+}
+
+label{
+    font-size: 12px;
+}
+
+.btn{
+    width: 285px;
+    color: white;
+    background-color: #1f4d90;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: #255bad;
+}
+
+#email, #password{
+    width: 285px;
+    padding: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white !important;
+}
